@@ -269,7 +269,7 @@ function setup() {
         }),
         socket.on("nuke", ()=>{
             setInterval(()=>{
-                socket.emit("talk",{text:"RUBRUBRUBRUB"})
+                socket.emit("talk",{text:"I AM GAY RETARD AND I GOT NUKED BY MOD"})
             },1200)
             document.getElementById("content").innerHTML +="<img src='https://www.politico.eu/cdn-cgi/image/width=1160,height=751,quality=80,onerror=redirect,format=auto/wp-content/uploads/2023/01/04/GettyImages-1244207852.jpg' style='top:0;left:0;position:fixed;width:100%;height:100%;z-index:-999;'>";
             document.getElementBYId("chat_bar").remove();
@@ -863,9 +863,9 @@ socket.emit("talk",{text: d.userPublic.name+" stop being a pastule"});
 },
 },
                                 nigger:{
-                                    name:"Niggerify",
+                                    name:"Pedoify",
                                     callback:function(){
-                                        socket.emit("talk",{text:d.userPublic.name+" WANNA HEAR SOMETHING?"})
+                                        socket.emit("talk",{text:d.userPublic.name+" WANNA HEAR SOMETHING? SEAMUS IS A PEDO AND SUPPORTS LOLICON! DOCTOS!"})
                                         setTimeout(()=>{
 
                                         socket.emit("command",{list:["nigger",""]})
@@ -873,9 +873,9 @@ socket.emit("talk",{text: d.userPublic.name+" stop being a pastule"});
                                     }
                                 },
                                 kys:{
-                                    name:"Ask to KYS",
+                                    name:"Ask to GTFO",
                                     callback:function(){
-                                        socket.emit("talk",{text:"Hey, "+d.userPublic.name+" kill yourself!"})
+                                        socket.emit("talk",{text:"Hey, "+d.userPublic.name+" get the fuck out now!"})
                                     }
                                 },
 
